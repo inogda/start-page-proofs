@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e2ed4ba-33ed-4cb9-aaf3-d2c3a687278e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/test-html.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/reset.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/css/style.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/libs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/_vars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oldpackage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28BzwpZnniE9oLcVJrTiB696OOI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\www\html\test-html\app\scss" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\www\html\test-html\app\scss" />
+      <recent name="F:\www\html\test-html\app\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gulp.js.Serving Gulp">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/test-html/app/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Serving Gulp" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks />
+      <arguments>browsersync</arguments>
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gulp.js.Serving Gulp" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e2ed4ba-33ed-4cb9-aaf3-d2c3a687278e" name="Default Changelist" comment="" />
+      <created>1650705007835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650705007835</updated>
+      <workItem from="1650705009046" duration="27384000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start page-proofs gulp webstorm" />
+    <option name="LAST_COMMIT_MESSAGE" value="start page-proofs gulp webstorm" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
