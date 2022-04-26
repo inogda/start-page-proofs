@@ -1,0 +1,23 @@
+.header {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  //justify-content: space-between;
+}
+
+.header-row__logo{
+  flex-shrink: 0;
+}
+.header-row__login{
+  padding-left: 33px;
+  position: relative;
+  flex-shrink: 0;
+  display: flex;
+  column-gap: 10px;
+  margin-left: auto;
+}
+

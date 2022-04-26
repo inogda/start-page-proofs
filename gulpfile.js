@@ -8,12 +8,12 @@ let gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     autoprefixer = require('gulp-autoprefixer'),            // проставляет префиксы
     cssbeautify = require ("gulp-cssbeautify"),             // делает красивый CSS код
-    removeComments = require ("gulp-strip-css-comments"),   // удаляет комментарии
+    removeComments = require ('gulp-strip-css-comments'),   // удаляет комментарии
     rename = require('gulp-rename'),
     clean = require('gulp-clean');                          // очищает директорию
-    cssnano = require ("gulp-cssnano"),                     // сжимает CSS файл
-    cssmin = require('gulp-cssmin'),
-    isProd = process.env.NODE_ENV === 'prod';
+    cssnano = require ('gulp-cssnano'),                     // сжимает CSS файл
+    cssmin = require('gulp-cssmin');
+let    isProd = process.env.NODE_ENV === 'prod';
 
 //    del = require('del');
 
@@ -23,7 +23,9 @@ function html() {
 }
 
 function css() {
-  return gulp.src('app/scss/**/*.scss')
+  return gulp.src([
+      'app/scss/**/*.scss'
+  ])
       .pipe(sass({outputStyle: 'expanded'}))
       //.pipe(autoprefixer({ browsers: ['last 8 versions'], cascade: true }))
       .pipe(autoprefixer({
@@ -39,17 +41,14 @@ function css() {
       .pipe(gulp.dest('app/css'))
       .pipe(gulp.dest('dist/css/'))
       //.pipe(browserSyncReload)
+      .pipe(concat('_libs.css'))
+      .pipe(cssmin())
+      .pipe(gulp.dest('dist/css'))
 }
 
-function cssall() {
-    return gulp.src([
-        'node_modules/normalize.css/normalize.css',
-        //'node_modules/slick-carousel/slick/slick.css',
-        'app/scss/**/*.scss',
-    ])
-        .pipe(concat('_libs.css'))
-        .pipe(cssmin())
-        .pipe(gulp.dest('dist/css'))
+function allcss() {
+
+
 }
 
 function js() {
@@ -86,7 +85,6 @@ function browserSyncReload(done) {
 function watchFiles() {
     gulp.watch('app/**/*.html', gulp.series(html, browserSyncReload));
     gulp.watch('app/scss/**/*.scss', gulp.series(css, browserSyncReload));
-    gulp.watch('app/scss/**/*.scss', gulp.series(cssall, browserSyncReload));
     gulp.watch('app/js/**/*.js', gulp.series(js, browserSyncReload));
     gulp.watch('src/img/**/*.*', gulp.series(img));
     return;
@@ -101,9 +99,8 @@ function del() {
 
 
 exports.css = css;
-exports.cssall = cssall;
 exports.html = html;
 exports.js = js;
 exports.del = del;
-exports.browsersync = gulp.parallel(html, css, cssall, js, img, watchFiles, browsersync);
-exports.default = gulp.series(del, html, css, cssall, js, img);
+exports.browsersync = gulp.parallel(html, css, js, img, watchFiles, browsersync);
+exports.default = gulp.series(del, html, css, js, img);

@@ -27,5 +27,8 @@
     "gulp-uglify": "^3.0.2",
     "normalize.css": "^8.0.1",
     "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "@font/nunito": "^1.0.3"
   }
 }

@@ -1,0 +1,32 @@
+.header {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.header-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header-row__logo {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+.header-row__login {
+    padding-left: 33px;
+    position: relative;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+    margin-left: auto;
+}
