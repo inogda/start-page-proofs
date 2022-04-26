@@ -3,22 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2ed4ba-33ed-4cb9-aaf3-d2c3a687278e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/reset.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/reset.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +43,7 @@
       <recent name="F:\www\html\test-html\app\scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\www\html\test-html\app\scss\blocks" />
       <recent name="F:\www\html\test-html\app\scss" />
       <recent name="F:\www\html\test-html\app\css" />
     </key>
@@ -102,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650705007835</updated>
-      <workItem from="1650705009046" duration="50515000" />
+      <workItem from="1650705009046" duration="58204000" />
     </task>
     <task id="LOCAL-00001" summary="start page-proofs gulp webstorm">
       <created>1650875727152</created>
@@ -111,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650875727153</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="shablon header">
+      <created>1650959633903</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650959633903</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,7 +112,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start page-proofs gulp webstorm" />
-    <option name="LAST_COMMIT_MESSAGE" value="start page-proofs gulp webstorm" />
+    <MESSAGE value="shablon header" />
+    <option name="LAST_COMMIT_MESSAGE" value="shablon header" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
