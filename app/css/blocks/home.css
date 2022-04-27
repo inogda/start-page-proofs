@@ -1,11 +1,13 @@
 /* section Home */
 .main {
     background-color: #E5E5E5;
-    position: relative;
+    position: absolute;
     z-index: -2;
+    width: 100%;
 }
 
 .home-block {
+    position: relative;
     min-height: 650px;
 }
 
@@ -28,10 +30,6 @@
 
 .home__btn {
     padding-top: 32px;
-}
-
-.home-block {
-    position: relative;
 }
 
 .home__bg-img {

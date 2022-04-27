@@ -1,0 +1,61 @@
+/* section People */
+
+.people {
+
+}
+
+.people__btn{
+  padding-top: 31px;
+}
+
+.people__title {
+  //styleName: H2;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0em;
+  color: rgba( 0, 0, 0, 0.87);
+  max-width: 904px;
+  padding-top: 140px;
+  margin: 0 auto;
+}
+
+.people__list{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 370px);
+  column-gap: 30px;
+}
+
+.list-item{
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 370px;
+  border-radius: 10px;
+  margin-bottom: 29px;
+}
+
+.list-item-img{
+  border-radius: 50%;
+  width: 70px;
+  height: auto;
+  object-fit: cover;
+}
+
+.list-item-name{
+  padding-top: 20px;
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-item-position{
+  font-size: 16px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.list-item-comtent{
+  padding-top: 20px;
+}
