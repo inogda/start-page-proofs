@@ -22,11 +22,12 @@
 }
 
 .home__btn {
+    max-width: 380px;
+    margin: 0 auto;
     padding-top: 32px;
 }
 
 .home__bg-img {
-    z-index: -1;
     position: absolute;
     left: 0;
     top: 0;
@@ -40,4 +41,10 @@
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+}
+
+.zindex {
+    position: relative;
+    z-index: 9;
+    max-width: 380px;
 }

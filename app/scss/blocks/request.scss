@@ -148,9 +148,6 @@ input[type='radio']:checked::after {
   padding-top: 47px;
 }
 
-
-
-
 .mask-wrapper {
 
 }
@@ -173,12 +170,12 @@ input[type='radio']:checked::after {
   width: 295px;
 }
 .custom-file-input {
-  width: 252px;
+  width: 84px;
   opacity: 0;
   filter: alpha(opacity=0);
   position: relative;
-  top: -27px;
-  left: -16px;
+  top: -54px;
   z-index: 99999;
   cursor: pointer;
+  height: 54px;
 }
