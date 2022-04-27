@@ -62,7 +62,7 @@ function js() {
 }
 
 function img() {
-    return gulp.src('app/img/*')
+    return gulp.src('app/img/**/*')
         .pipe(gulpIf(isProd, imagemin() ))
         .pipe(gulp.dest('dist/img/'))
 }

@@ -49,13 +49,22 @@ body {
   margin-right: auto;
 }
 
+
+.btn-100{
+  display: inline-block;
+  width: 100px;
+}
+.btn-120{
+  display: inline-block;
+  width: 120px;
+}
 .a-btn, a.a-btn{
   text-align: center;
   padding-top: 4px;
   padding-bottom: 4px;
   display: inline-block;
-  width: 100px;
-  background-color: #f4e041;
+  width: 100%;
+  //background-color: #f4e041;
   border-radius: 80px;
   font-size: 16px;
   transition: transform 0.2s ease;
@@ -66,10 +75,17 @@ body {
   opacity: 0.8;
 }
 
+.a-btn-active{
+  background-color: #f4e041;
+}
+.a-btn-disable{
+  background-color: #B4B4B4;
+}
+
+
 .main{
   background-color: #E5E5E5;
   position: relative;
-  z-index: -2;
   width: 100%;
   padding-bottom: 20px;
 }

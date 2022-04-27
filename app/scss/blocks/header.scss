@@ -21,3 +21,8 @@
   margin-left: auto;
 }
 
+@media (max-width: 410px) {
+  .header-row__login {
+    padding-left: 13px;
+  }
+}

@@ -28,11 +28,12 @@
                 </a>
             </div>
             <div class="header-row__login">
-
-                <a href="#" class="a-btn">Users</a>
-
-                <a href="#" class="a-btn">Sign up</a>
-
+                <div class="btn-100">
+                    <a href="#" class="a-btn a-btn-active">Users</a>
+                </div>
+                <div class="btn-100">
+                    <a href="#" class="a-btn a-btn-active">Sign up</a>
+                </div>
             </div>
         </div>
     </div>
@@ -42,21 +43,29 @@
     <section class="home">
         <div class="container">
             <div class="home-block">
-                <h1 class="home__heading">
-                    Test assignment for front-end developer
-                </h1>
+                <div class="home__heading">
+                    <h1 class="zindex">
+                        Test assignment for front-end developer
+                    </h1>
+                </div>
+
                 <div class="home__text">
-                    <p>
-                        What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with
-                        a
-                        vast understanding of User design thinking as they'll be building web interfaces with
-                        accessibility
-                        in mind. They should also be excited to learn, as the world of Front-End Development keeps
-                        evolving.
-                    </p>
+                    <div class="zindex">
+                        <p>
+                            What defines a good front-end developer is one that has skilled knowledge of HTML, CSS, JS with
+                            a
+                            vast understanding of User design thinking as they'll be building web interfaces with
+                            accessibility
+                            in mind. They should also be excited to learn, as the world of Front-End Development keeps
+                            evolving.
+                        </p>
+                    </div>
                 </div>
                 <div class="home__btn">
-                    <a href="#" class="a-btn">Sign up</a>
+                    <div class="zindex btn-100">
+                        <a href="#" class="a-btn a-btn-active">Sign up</a>
+                    </div>
+
                 </div>
 
                 <div class="home__bg-img">
@@ -194,8 +203,8 @@
                 <!-- //list-item -->
 
             </div>
-            <div class="people__btn">
-                <a href="#" class="a-btn">Show more</a>
+            <div class="people__btn btn-120">
+                <a href="#" class="a-btn a-btn-active">Show more</a>
             </div>
         </div>
     </section>
@@ -209,18 +218,30 @@
             <form action="/" method="post">
                 <ul>
                     <li>
-                        <input class="request-input" type="text" id="name"
-                               name="user_name" placeholder="Your name">
-                    </li>
-                    <li>
-                        <input class="request-input" type="email" id="mail"
-                               name="user_mail" placeholder="Email">
+                        <div class="request-grid">
+                            <label class="request-label border-error">
+                                <input class="request-input" type="text" id="name"
+                                       name="user_name" placeholder="Your name">
+                            </label>
+                            <div class="request-grid-label text-error">error</div>
+                        </div>
                     </li>
                     <li>
                         <div class="request-grid">
-                            <input class="request-input" type="text" id="phone"
-                                   name="user_phone" placeholder="Phone">
-                            <label class="request-grid-label" for="phone">+38 (XXX) XXX - XX - XX</label>
+                            <label class="request-label">
+                                <input class="request-input" type="email" id="mail"
+                                       name="user_mail" placeholder="Email">
+                            </label>
+                            <div class="request-grid-label text-error none">error</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="request-grid">
+                            <label class="request-label">
+                                <input class="request-input" type="text" id="phone"
+                                       name="user_phone" placeholder="Phone">
+                            </label>
+                            <div class="request-grid-label">+38 (XXX) XXX - XX - XX</div>
                         </div>
                     </li>
                     <li>
@@ -231,40 +252,44 @@
 
                         <div class="request-radio">
                             <div class="custom-radio">
-                                <input type="radio" name="radio" id="radio1" >
+                                <input type="radio" name="radio" id="radio1" checked>
                                 <label for="radio1">Frontend developer</label>
                             </div>
 
                             <div class="custom-radio">
-                                <input type="radio" name="radio" id="radio2" >
+                                <input type="radio" name="radio" id="radio2">
                                 <label for="radio2">Backend developer</label>
                             </div>
 
                             <div class="custom-radio">
-                                <input type="radio" name="radio" id="radio2" >
-                                <label for="radio2">Designer</label>
+                                <input type="radio" name="radio" id="radio3">
+                                <label for="radio3">Designer</label>
                             </div>
 
                             <div class="custom-radio">
-                                <input type="radio" name="radio" id="radio2" >
-                                <label for="radio2">QA</label>
+                                <input type="radio" name="radio" id="radio4">
+                                <label for="radio4">QA</label>
                             </div>
                         </div>
 
+                    </li>
+                    <li>
                         <div class="request_upload">
                             <div class="mask-wrapper">
                                 <div class="mask">
-                                    <button class="send-file">Upload</button><input class="fileInputText" type="text" placeholder="Upload your photo" disabled>
+                                    <button class="send-file send-file-active">Upload</button>
+                                    <input class="fileInputText active" type="text" placeholder="Upload your photo" disabled>
+                                    <div class="request-grid-label text-error default">error</div>
                                 </div>
                                 <input id="my_file" class="custom-file-input" type="file" name="my_file">
+
                             </div>
+
                         </div>
-
-
                     </li>
                 </ul>
-                <div class="request__btn">
-                    <a href="#" class="a-btn">Sign up</a>
+                <div class="request__btn btn-100">
+                    <a href="#" class="a-btn a-btn-disable">Sign up</a>
                 </div>
             </form>
 
@@ -273,9 +298,7 @@
 
 </main>
 
-<footer class="footer">
- footer
-</footer>
+<footer class="footer">© Copyright © inogda, 2022 Все права защищены</footer>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
