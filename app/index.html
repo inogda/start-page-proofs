@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="css/blocks/header.css">
     <link rel="stylesheet" href="css/blocks/home.css">
     <link rel="stylesheet" href="css/blocks/people.css">
+    <link rel="stylesheet" href="css/blocks/request.css">
+    <link rel="stylesheet" href="css/blocks/footer.css">
 
 
 </head>
@@ -198,11 +200,81 @@
         </div>
     </section>
 
+    <section class="request">
+        <div class="container">
+            <h2 class="request__title">
+                Working with POST request
+            </h2>
+
+            <form action="/" method="post">
+                <ul>
+                    <li>
+                        <input class="request-input" type="text" id="name"
+                               name="user_name" placeholder="Your name">
+                    </li>
+                    <li>
+                        <input class="request-input" type="email" id="mail"
+                               name="user_mail" placeholder="Email">
+                    </li>
+                    <li>
+                        <div class="request-grid">
+                            <input class="request-input" type="text" id="phone"
+                                   name="user_phone" placeholder="Phone">
+                            <label class="request-grid-label" for="phone">+38 (XXX) XXX - XX - XX</label>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="request-title">
+                            Select your position
+                        </div>
+
+
+                        <div class="request-radio">
+                            <div class="custom-radio">
+                                <input type="radio" name="radio" id="radio1" >
+                                <label for="radio1">Frontend developer</label>
+                            </div>
+
+                            <div class="custom-radio">
+                                <input type="radio" name="radio" id="radio2" >
+                                <label for="radio2">Backend developer</label>
+                            </div>
+
+                            <div class="custom-radio">
+                                <input type="radio" name="radio" id="radio2" >
+                                <label for="radio2">Designer</label>
+                            </div>
+
+                            <div class="custom-radio">
+                                <input type="radio" name="radio" id="radio2" >
+                                <label for="radio2">QA</label>
+                            </div>
+                        </div>
+
+                        <div class="request_upload">
+                            <div class="mask-wrapper">
+                                <div class="mask">
+                                    <button class="send-file">Upload</button><input class="fileInputText" type="text" placeholder="Upload your photo" disabled>
+                                </div>
+                                <input id="my_file" class="custom-file-input" type="file" name="my_file">
+                            </div>
+                        </div>
+
+
+                    </li>
+                </ul>
+                <div class="request__btn">
+                    <a href="#" class="a-btn">Sign up</a>
+                </div>
+            </form>
+
+        </div>
+    </section>
 
 </main>
 
-<footer>
-
+<footer class="footer">
+ footer
 </footer>
 
 

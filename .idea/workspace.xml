@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2ed4ba-33ed-4cb9-aaf3-d2c3a687278e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/scss/blocks/people.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/blocks/request.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/blocks/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/blocks/home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/blocks/home.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/blocks/home.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/blocks/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/blocks/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/main.scss" afterDir="false" />
     </list>
@@ -98,7 +100,7 @@
       <updated>1650705007835</updated>
       <workItem from="1650705009046" duration="60898000" />
       <workItem from="1651045456624" duration="24000" />
-      <workItem from="1651045577762" duration="9838000" />
+      <workItem from="1651045577762" duration="27758000" />
     </task>
     <task id="LOCAL-00001" summary="start page-proofs gulp webstorm">
       <created>1650875727152</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650977998239</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="shablon header home people">
+      <created>1651056222269</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651056222269</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +151,8 @@
     <MESSAGE value="start page-proofs gulp webstorm" />
     <MESSAGE value="shablon header" />
     <MESSAGE value="shablon header home" />
-    <option name="LAST_COMMIT_MESSAGE" value="shablon header home" />
+    <MESSAGE value="shablon header home people" />
+    <option name="LAST_COMMIT_MESSAGE" value="shablon header home people" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
